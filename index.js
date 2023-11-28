@@ -51,14 +51,14 @@ const main = async() => {
                         console.log(`Temperatura: ${result.temp}`.brightWhite);
                     }
                     if (result.min >= 25) {
-                        console.log(`Temperatura: ${result.min}`.magenta);
+                        console.log(`Temperatura mínima: ${result.min}`.magenta);
                     } else {
-                        console.log(`Temperatura: ${result.min}`.brightWhite);
+                        console.log(`Temperatura mínima: ${result.min}`.brightWhite);
                     }
-                    if (result.min >= 25) {
-                        console.log(`Temperatura: ${result.max}`.magenta);
+                    if (result.max >= 25) {
+                        console.log(`Temperatura máxima: ${result.max}`.magenta);
                     } else {
-                        console.log(`Temperatura: ${result.max}`.brightWhite);
+                        console.log(`Temperatura máxima: ${result.max}`.brightWhite);
                     }
                     console.log(`El clima: ` + `${result.desc}`.brightYellow.bold);
                 } else {
